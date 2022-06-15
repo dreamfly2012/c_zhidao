@@ -5,6 +5,8 @@ int main(){
   int *p = &a[0];
   *p++;
   printf("p目前的指向的地址是%d\n",p);
+  printf("p目前的指向的地址是%p\n",p);
+  printf("p目前的指向的地址是%x\n",p);
   printf("p目前指向的地址里面的值是%d\n",*p);
   return 0;
 }
